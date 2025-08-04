@@ -41,7 +41,7 @@
         /* Top navigation */
         .top-nav {
             position: absolute;
-            top: 30px;
+            top: 15px;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -50,29 +50,19 @@
         }
 
         .buy-button {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(57, 255, 20, 0.3);
-            color: #39ff14;
-            width: 200px;
-            height: 70px;
-            border-radius: 15px;
-            cursor: pointer;
-            box-shadow: 0 8px 25px rgba(57, 255, 20, 0.4);
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        .buy-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 35px rgba(57, 255, 20, 0.6);
-            background: rgba(57, 255, 20, 0.2);
-            border-color: #39ff14;
-        }
-
+.buy-button:hover {
+    transform: translateY(-3px);
+}
         /* BUY BUTTON PNG SECTION - ADD YOUR BUY BUTTON IMAGE HERE */
         .buy-button img {
             width: auto;
@@ -581,7 +571,7 @@
             <!-- Contract Address Section -->
             <div class="contract-section">
                 <div class="contract-title">Contract Address</div>
-                <div class="contract-address" id="contractAddress">0x1234567890abcdef1234567890abcdef12345678</div>
+                <div class="contract-address" id="contractAddress">soon</div>
                 <button class="copy-button" onclick="copyContract()">
                     📋 Copy Address
                 </button>
